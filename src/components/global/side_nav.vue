@@ -30,9 +30,9 @@
             </router-link>
           </li>
           <li class="each-menu">
-            <router-link to="blogs" class="menu-link">
+            <router-link to="services" class="menu-link">
               <i class="lab la-blogger"></i>
-              BLOGS
+              SERVICES
             </router-link>
           </li>
           <li class="each-menu">

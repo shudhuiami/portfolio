@@ -8,10 +8,9 @@
   background: #000;
   z-index: 999;
   padding: 0 10px;
-  max-width: 300px;
+  width: 300px;
   box-shadow: 0px 3px 7px rgba(0,0,0,0.1);
-  width: 20%;
-  overflow: hidden;
+  overflow: auto;
   box-sizing: border-box;
   .user-info-wrapper{
     width: 100%;
@@ -67,10 +66,21 @@
     }
   }
   .nav-bottom-wrapper{
-    margin-top: 30px;
+    //margin-top: 200px;
     width: 100%;
     padding: 0 30px;
     box-sizing: border-box;
+    display: inline-block;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @media only screen and (max-height: 650px) {
+      position: initial;
+      bottom: initial;
+      left: initial;
+      margin-top: 80px;
+    }
     .social-btn-wrapper{
       padding: 0;
       width: 100%;

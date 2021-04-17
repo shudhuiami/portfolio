@@ -32,6 +32,29 @@ a{
   color: #fff !important;
 }
 
+.b-box{
+  background-color: #000;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.btn {
+  padding: 12px 40px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.5s;
+  letter-spacing: 2px;
+  color: #fff;
+  box-shadow: none;
+  text-transform: uppercase;
+  outline: none !important;
+  background-color: #333;
+  border-radius: 0px;
+  min-width: 140px;
+  &:hover{
+    color: #fff;
+  }
+}
+
 .progress {
   height: 3px;
   background: #dcdcdc;
@@ -41,6 +64,19 @@ a{
   }
 }
 
+.slick-prev:before, .slick-next:before {
+  font-family: 'Line Awesome Free';
+  font-size: 50px;
+}
+.slick-prev:before{
+  content: "\f104";
+}
+.slick-next:before {
+  content: "\f105";
+}
+.slick-next {
+  right: 0;
+}
 
 .margin-10{
   width: auto;

@@ -168,7 +168,7 @@
           </div>
           <div class="row">
             <div class="col-lg-12 text-center mt-5 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".5s">
-              <a href="services.html" class="btn ">View All</a>
+              <router-link to="services" class="btn ">View All</router-link>
             </div>
           </div>
         </div>

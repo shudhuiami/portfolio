@@ -12,7 +12,7 @@ Vue.use(VueRouter)
 Vue.use(VuePageTransition)
 
 global.core = {
-  APP_PATH: 'http://localhost/zobayer/public/images',
+  APP_PATH: 'http://localhost/portfolio/static/images',
 };
 
 const router = new VueRouter({
