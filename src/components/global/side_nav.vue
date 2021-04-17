@@ -12,34 +12,34 @@
       <div class="nav-menu-wrapper">
         <ul class="nav-menu">
           <li class="each-menu">
-            <a href="#" class="menu-link">
+            <router-link to="/" class="menu-link">
               <i class="las la-home"></i>
               HOME
-            </a>
+            </router-link>
           </li>
           <li class="each-menu">
-            <a href="#" class="menu-link">
+            <router-link to="resume" class="menu-link">
               <i class="las la-user-graduate"></i>
               RESUME
-            </a>
+            </router-link>
           </li>
           <li class="each-menu">
-            <a href="#" class="menu-link">
+            <router-link to="portfolio" class="menu-link">
               <i class="las la-project-diagram"></i>
               PORTFOLIO
-            </a>
+            </router-link>
           </li>
           <li class="each-menu">
-            <a href="#" class="menu-link">
+            <router-link to="blogs" class="menu-link">
               <i class="lab la-blogger"></i>
               BLOGS
-            </a>
+            </router-link>
           </li>
           <li class="each-menu">
-            <a href="#" class="menu-link">
+            <router-link to="contacts" class="menu-link">
               <i class="las la-voicemail"></i>
               CONTACT
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>

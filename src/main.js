@@ -2,13 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import {routes} from './router/index'
+import VuePageTransition from 'vue-page-transition'
 import 'bootstrap'
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
-
 Vue.config.productionTip = false
 
 Vue.use(VueRouter)
+Vue.use(VuePageTransition)
 
 global.core = {
   APP_PATH: 'http://localhost/zobayer/public/images',
