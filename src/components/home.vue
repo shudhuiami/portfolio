@@ -18,8 +18,28 @@
               <div class="about-desc wow-none fadeInUp" data-wow-none-duration="1s" data-wow-none-delay="500ms">
                 <div class="about-desc-content">
                   <h1 class="font-weight-light mb-5">I'm Ahmed Zobayer</h1>
-                  <p class="font-weight-light my-3">Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
-                  <p class="font-weight-light my-3">Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
+                  <p class="font-weight-light my-3">
+                    Hi! I am Ahmed zobayer and I like to introduce myself as a Web developer. I
+                    have been working as a web Developer for almost 4 years. I like to work with
+                    new technologies and learn new things. I mainly started learning web
+                    development as a hobby and now it has become my profession.
+                  </p>
+                  <p class="font-weight-light my-3">
+                    Most of my work was based on PHP, Laravel Framework, VueJS. I did some
+                    projects fully based on raw PHP and some based on Laravel, although both raw
+                    PHP and frameworks have their own advantages and disadvantages, it mostly
+                    comes down to workflow preferences and demands of the project. I am familiar
+                    with laravel MVC Pattern and the huge package library of laravel.
+                  </p>
+                  <p class="font-weight-light my-3">
+                    I am also familiar with Flask, a python framework for web development. <br><br>
+                    I also have experience building custom JS plugins. Building redishketch-romeo a
+                    HTTP Request module(JS Plugin), which can be used in any JavaScript project
+                    without any kind of plugins, was fun. <br><br>
+                    I have experience of handling ubuntu server and linux servers. I have been
+                    handling linux servers for more than two years.
+                  </p>
+
                 </div>
 
                 <div class="about-desc-more text-left mt-5">
@@ -33,7 +53,7 @@
                     <div class="col-md-6">
                       <div class="about-desc-info">
                         <b>Location : </b>
-                        <span>Dhaka, Bangladesh</span>
+                        <span>Jessore, Bangladesh</span>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -45,13 +65,13 @@
                     <div class="col-md-6">
                       <div class="about-desc-info">
                         <b>Skype : </b>
-                        <a class="text-underline" href="tel:gtomdesign">gtomdesign</a>
+                        <a class="text-underline" href="tel:gtomdesign">shudhui.ami</a>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="about-desc-info">
                         <b>Phone : </b>
-                        <a class="text-underline" href="tel:+8801762011867">+8801762011867</a>
+                        <a class="text-underline" href="tel:+8801762011867">+8801762011847</a>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -78,35 +98,48 @@
         <div class="section-skills-wrap">
           <div class="row">
             <div class="col-md-6">
-              <p>Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
-              <p> tempor iaculis massa. Sed placerat justo sed libero varius vulputate. Ut a mi tempus massa malesuada fermentum.</p>
+              <p>Hi! I am Ahmed zobayer and I like to introduce myself as a Full Stack Web Developer. who has a huge crash on Javascript and Node js.Experienced with most of the development platforms & dynamic web projects. Capable of working with different programming language and Frameworks such as JavaScript, VueJS, jQuery, PHP, PHP7, SCSS, LESS, handlebarsJS, Laravel etc.</p>
             </div>
 
             <div class="col-md-6">
               <div class="resume-panel">
                 <div class="mb-4 wow-none fadeInUp" data-wow-none-duration="1.5s">
-                  <p>Graphic Design </p>
+                  <p>UI</p>
+                  <div class="progress mt-2">
+                    <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="mb-4 wow-none fadeInUp" data-wow-none-duration="1.5s">
+                  <p>JavaScript</p>
+                  <div class="progress mt-2">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="mb-4 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".2s">
+                  <p>PHP & MYSQL</p>
                   <div class="progress mt-2">
                     <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
-                <div class="mb-4 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".2s">
-                  <p>Logo Design</p>
-                  <div class="progress mt-2">
-                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
-                </div>
-
                 <div class="mb-4 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".3s">
-                  <p>Logo Design</p>
+                  <p>Laravel/Lumen</p>
                   <div class="progress mt-2">
-                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
                 </div>
 
                 <div class="mb-0 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".4s">
-                  <p>Photoshop &amp; Figma</p>
+                  <p>jQuery & other Javascript library</p>
+                  <div class="progress mt-2">
+                    <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+
+                <div class="mb-0 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".4s">
+                  <p>Python</p>
                   <div class="progress mt-2">
                     <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
@@ -128,20 +161,20 @@
           <div class="row mt-4">
             <div class="col-sm-6 col-lg-4">
               <div class="services-list b-box  p-4 wow-none fadeInUp" data-wow-none-duration="1.5s">
-                <img alt="services" src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
+                <img alt="services" :src="media.service_web">
                 <div class="services-list-icon">
                   <i class="lni lni-pallet"></i>
                   <span>01</span>
                 </div>
                 <div class="services-list-desc">
-                  <h5 class="mb-0">Graphic Design</h5>
+                  <h5 class="mb-0">BD LINK COMPUTER</h5>
                   <p class=" mt-3">Modern and mobile-ready website that will help of your marketing. Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec.</p>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-lg-4">
               <div class="services-list b-box  p-4 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".2s">
-                <img alt="services" src="http://gtom.info/andrea/Dark/assets/images/services02.jpg">
+                <img alt="services" :src="media.service_app">
                 <div class="services-list-icon">
                   <i class="lni lni-laptop-phone"></i>
                   <span>02</span>
@@ -154,7 +187,7 @@
             </div>
             <div class="col-sm-6 col-lg-4">
               <div class="services-list b-box  p-4 wow-none fadeInUp" data-wow-none-duration="1.5s" data-wow-none-delay=".3s">
-                <img alt="services" src="http://gtom.info/andrea/Dark/assets/images/services03.jpg">
+                <img alt="services" :src="media.service_web_2">
                 <div class="services-list-icon">
                   <i class="lni lni-video"></i>
                   <span>03</span>
@@ -182,11 +215,15 @@
 
 import Footer  from './../components/global/footer'
 
+
 export default {
   data() {
     return {
       media: {
         homeCoverBg: core.APP_PATH + '/home-bg.jpg',
+        service_web: core.APP_PATH + '/bdlink.jpg',
+        service_app: core.APP_PATH + '/mobile-app.jpg',
+        service_web_2: core.APP_PATH + '/creative.jpg',
       },
     }
   },

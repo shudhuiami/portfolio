@@ -262,11 +262,18 @@
             left: 0;
             right: 0;
             z-index: 1;
+            h5{
+              font-weight: 500;
+            }
             p{
-              color: #cfcfcf;
+              color: #e3e3e3;
               font-size: 13px;
               transform: scale(0);
               transition: 700ms;
+              text-overflow: ellipsis;
+              height: 45px;
+              display: inline-block;
+              overflow: hidden;
             }
           }
           &:after {
@@ -279,7 +286,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            opacity: 0.5;
+            opacity: 0.4;
           }
           &:hover{
             img{

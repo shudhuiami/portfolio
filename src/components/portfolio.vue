@@ -10,73 +10,46 @@
           <div class="row">
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
+                <img :src="media.bdlink2">
                 <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
+                  <h5 class="mb-0">BD LINK COMPUTER</h5>
+                  <p class="mt-3">A Basic e-commerce website which help sharing the details of products of computer shop <strong>BDLINKCOMPUTER</strong></p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
+                <img :src="media.rusbhara">
                 <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
+                  <h5 class="mb-0">Rusbhara</h5>
+                  <p class="mt-3">Rusbhara.com is an e-commerce website which sales fresh fruits online.</p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
+                <img :src="media.evolve">
                 <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
+                  <h5 class="mb-0">Evolve</h5>
+                  <p class="mt-3">This Applications main focus is to serve the clients of Evolve Fitness system with keeping contact with coaches and maintaining workouts.</p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
+                <img :src="media.aljilani">
                 <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
+                  <h5 class="mb-0">ALJILANI</h5>
+                  <p class="mt-3">A Saudi Arabian Retails And The Wholesales Of All Kind Of Packaging Requirements system for local and foreign markets</p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
+                <img :src="media.a1daam">
                 <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
-                <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
-                <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="each-project-wrapper">
-                <img src="http://gtom.info/andrea/Dark/assets/images/services01.jpg">
-                <div class="services-list-desc">
-                  <h5 class="mb-0">Daaris</h5>
-                  <p class="mt-3">LARAVEL, VueJS, SCSS ...</p>
+                  <h5 class="mb-0">A1DAAM</h5>
+                  <p class="mt-3">A Saudi Arabian Retails And The Wholesales Of All Kind Of Packaging Requirements system for local and foreign markets</p>
                 </div>
               </div>
             </div>
@@ -143,7 +116,14 @@ import Footer  from './../components/global/footer'
 export default {
   data() {
     return {
-      name: ''
+      media: {
+        bdlink: core.APP_PATH + '/bdlink.jpg',
+        bdlink2: core.APP_PATH + '/bdlink2.jpg',
+        evolve: core.APP_PATH + '/evolve.png',
+        aljilani: core.APP_PATH + '/aljilani.png',
+        rusbhara: core.APP_PATH + '/rusbhara.jpg',
+        a1daam: core.APP_PATH + '/a1daam.jpg',
+      },
     }
   },
   watch: {
